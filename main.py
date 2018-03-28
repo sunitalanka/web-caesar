@@ -55,6 +55,6 @@ def encrypt():
       for char in new_txt:
           n_char = rotate_string(char,new_rot)
           new_st += n_char
-      return form.format( new_st )
+      return form.format(new_st)
 
 app.run()    
